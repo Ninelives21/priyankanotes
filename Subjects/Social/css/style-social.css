@@ -1,0 +1,174 @@
+body{
+	background-color:#f4f4f4;
+	font-family: sans-serif;
+}	
+
+.italics-para{
+	font-style: italic;
+}
+
+h1{
+	color: #329207;
+	font-family:  sans-serif;
+	font-size: 40px;
+	text-align: center;
+}
+
+h3{
+	color: #953232;
+	font-family: Tahoma;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h4{
+	color: #126bbc;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+h5{
+	color: #126bbc;
+	font-size: 15px;
+	font-weight: bold;
+	margin-left: 20px;
+}
+
+.keywords{
+	background-color: #f5d164;
+}
+
+.heading{
+	color: #a22663;
+	font-weight: bold;
+	padding: 4px;	
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:nth-child(odd){
+	background-color: #cbcbcb;
+}
+
+.match:table, .match:td, .match:th {
+  border: 1px solid black;
+}
+
+.match{
+	margin-left: 50px;
+}
+
+.match:tr{
+	background-color: white;
+}
+
+ul li{
+	margin: 10px 0;
+}
+
+.collapsible {
+  cursor: pointer;
+  padding: 8px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  color: #0c66aa;
+  font-weight: 550;
+}
+
+.active, .collapsible:hover {
+  color: #226aac;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.inline-questions{
+	color: #0c66aa;
+	background-color: #c6e7b9;
+	font-weight: bold;
+}
+
+
+.excercises-div{
+	background-color: #eeeeee;
+}
+
+.excercises-header-div{
+	text-align: left;
+	text-transform: uppercase;
+	color: #953232;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.question{
+	color: #126bbc;
+	font-weight: bold;
+}
+
+.excercises-div ol li{
+	margin: 10px 0;
+}
+
+.excercises-div img{
+	display: block;
+  	margin-left: 20px;
+  	margin-right: auto;
+  	border: black solid;
+}
+
+.excercises-div h4{
+	color: red;
+}
+
+.ans{
+	color: #0c66aa;
+	background-color: #e1f2f1;
+	opacity: 1;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 75%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}

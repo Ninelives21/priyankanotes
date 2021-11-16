@@ -1,0 +1,217 @@
+@import url(https://fonts.googleapis.com/css?family=Dosis:300,400);
+
+body{
+	background-color:#f4f4f4;
+	font-family: sans-serif;
+}	
+
+h1{
+	color: #0c66aa;
+	font-family:  Georgia;
+	text-align: center;
+}
+
+h3{
+	color: #953232;
+	font-family: Tahoma;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h4{
+	color: #003B4A;
+	font-weight: bold;;
+}
+
+footer{
+	font-family: Georgia;
+	text-align: center;
+	font-size: 12px;
+
+}
+
+.activity-box{
+	background-color: #d7b0c4;
+	padding: 10px;
+	margin: 10px;
+}
+
+.activity-headers{
+	text-align: center;
+}
+
+.activity-fig{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	border: black solid;
+}
+
+.activity-heading{
+	color: #953232;
+	font-family: Tahoma;
+	font-weight: bold;
+}
+
+.activity-desc{
+	color:  #797979;
+	font-weight: bold;
+}
+
+.fig-number{
+	color: #333;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 10px
+}
+
+.oral-questions-box{
+	margin: auto;
+	background-color: #f3e3b3;
+	font-family: sans-serif;
+	padding: 8px;
+	width: 80%;
+}
+
+.oral-questions-heading{
+	text-align: center;
+	text-transform: uppercase;
+	color: #57205c;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.imp-words{
+	background-color: #f5d164;
+}
+
+.inline-questions{
+	color: #0c66aa;
+	background-color: #c6e7b9;
+	font-weight: bold;
+}
+
+.Parent {
+        display: flex;
+        flex-direction: row;
+}
+  
+.child {
+    width: 50%;
+    text-align: justify;
+    padding: 10px;
+ }
+
+.box-in-box-parent{
+	display: flex;
+    flex-direction: row;
+}
+
+.box-in-box-child{
+	width: 50%;
+}
+
+.new-words-div{
+	background-color: #cfe2f3;
+	padding: 12px;
+}
+
+.new-words-header-div{
+	text-align: center;
+	text-transform: uppercase;
+	color: #0e76bf;
+	font-family: sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.new-words-body{
+	font-family: Georgia;
+	padding: 10px;
+}
+
+.new-word{
+	font-weight: bold;
+}
+
+.now-you-know-div{
+	background-color: #d9ead3;
+	padding: 12px;
+}
+
+.now-you-know-header-div{
+	text-align: center;
+	text-transform: uppercase;
+	color: #2f790f;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+
+.excercises-div{
+	background-color: #eeeeee;
+}
+
+.excercises-header-div{
+	text-align: center;
+	text-transform: uppercase;
+	color: #953232;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.excercises-div ol li{
+	margin: 10px 0;
+}
+
+.excercises-div img{
+	display: block;
+  	margin-left: 20px;
+  	margin-right: auto;
+  	border: black solid;
+}
+
+.ans{
+	color: #0c66aa;
+	background-color: #e1f2f1;
+	opacity: 1;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
